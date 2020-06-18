@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta name=description content="">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>{{headline}} | HOME | 3NITY</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/all.min.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <script src="js/jquery2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid"> 
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+              <span class="sr-only">navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand" style="color: white!important;">PROJECT 0</a>
+          </div>
+          <div class="collapse navbar-collapse" id="collapse">
+            <div class="navbar-form navbar-left">
+              
+            </div>
+
+            <ul class="ad-no nav navbar-nav navbar-right">
+            {% block nav %}
+              
+            {% endblock %}
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    	 <p><br /></p>
+    	 <p><br /></p>
+    
+			 {%block body%}
+    
+    	 {%endblock%}
+
+     <footer>
+       <div>
+         <center>
+         	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This project is made with <i class="fa fa-heart"></i> by me: <span class="btn-sm btn-info"> Paul Innocent (3NITY)</span>
+      		</center>
+       </div>
+     </footer>
+    	<br />
+  </body>
+</html>
