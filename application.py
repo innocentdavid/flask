@@ -7,10 +7,30 @@ def index():
 	header="Welcome to Flask"
 	return render_template("index.html", headline=header)
 
-@app.route("/bye")
-def bye():
-	header="Goodbye"
+@app.route("/index")
+def index():
+	header="Welcome to Flask"
 	return render_template("index.html", headline=header)
+
+@app.route("/css")
+def css():
+	return render_template("css.html")
+
+@app.route("/js")
+def js():
+	return render_template("js.html")
+
+@app.route("/html")
+def html():
+	return render_template("html.html")
+
+@app.route("/py")
+def py():
+	return render_template("py.html")
+
+@app.route("/dj")
+def dj():
+	return render_template("dj.html")	
 
 @app.route("/<string:name>")
 def hello(name):
