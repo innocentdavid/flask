@@ -7,11 +7,6 @@ def index():
 	header="Welcome to Flask"
 	return render_template("index.html", headline=header)
 
-@app.route("/index")
-def index():
-	header="Welcome to Flask"
-	return render_template("index.html", headline=header)
-
 @app.route("/css")
 def css():
 	return render_template("css.html")
@@ -36,3 +31,7 @@ def dj():
 def hello(name):
 	name = name.capitalize()
 	return (f"<h1>{name} is not available!</h1>")
+	
+if __name__ == '__main__':
+  app.DEB6G= True
+  app.run(host ='127.0.0.1', port=5000)

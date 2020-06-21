@@ -1,12 +1,12 @@
 {% extends "layout.html" %}
 
 {% block nav %}
-  <li class="active"><a href="index.html">HOME</a></li>
-  <li><a href="html.html">HTML</a></li>
-  <li><a href="css.html">CSS</a></li>
-  <li><a href="js.html">JAVASCRIPT</a></li>
-  <li><a href="py.html">PYTHON</a></li>
-  <li><a href="dj.html">DJANGO</a></li>
+  <li class="active"><a href="{{url_for('index')}}">HOME</a></li>
+  <li><a href="{{url_for('html')}}">HTML</a></li>
+  <li><a href="{{url_for('css')}}">CSS</a></li>
+  <li><a href="{{url_for('js')}}">JAVASCRIPT</a></li>
+  <li><a href="{{url_for('py')}}">PYTHON</a></li>
+  <li><a href="{{url_for('dj')}}">DJANGO</a></li>
 {% endblock %}
 
 {% block body %}

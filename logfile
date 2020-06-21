@@ -1,0 +1,8 @@
+2020-06-21 13:28:06.178 WAT [22686] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-21 13:28:06.185 WAT [22686] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2020-06-21 13:28:06.237 WAT [22690] LOG:  database system was shut down at 2020-06-21 13:22:26 WAT
+2020-06-21 13:28:06.264 WAT [22686] LOG:  database system is ready to accept connections
+2020-06-21 13:31:22.249 WAT [22800] FATAL:  database "mydb" does not exist
+2020-06-21 13:39:23.855 WAT [23296] FATAL:  database "list" does not exist
+2020-06-21 13:39:40.249 WAT [23301] FATAL:  database "u0_a154" does not exist
+2020-06-21 15:07:25.359 WAT [28936] FATAL:  database "u0_a154" does not exist
